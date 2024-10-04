@@ -29,7 +29,7 @@ This project was completed as part of the **AWS AI & ML Scholarship Program** in
 ### Training the Model
 ```bash
 python train.py flowers --arch vgg16 --epochs 5 --gpu --save_dir /path/to/save/checkpoint
-
+```
 ### Predicting with the Model
 ```bash
 python predict.py /path/to/image /path/to/checkpoint --top_k 5 --category_names cat_to_name.json --gpu
